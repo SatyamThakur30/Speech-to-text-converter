@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
+   <style>
+       body{
+           background-color: rgb(110, 108, 108)
+       }
+   .btn{
+       width:20vw;
+       height: 20vw;
+       font-size: 10vw;
+       background-color: rgb(108, 248, 96);
+       cursor: pointer;
+       margin:auto auto auto 40%;
+       align-content: center;
+   }
+   h5{
+       text-align: center;
+       width: 100%;
+    
+       font-size: 2vw;
+       color: white;
+   }
+   .output{
+       color: white;
+       align-content: center;
+       margin-left:20%;
+       background-color: black;
+       width: 60%;
+       height: 6vw;
+       text-align: center;
+       font: 1.4vw;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   </style>
+</head>
+<body>
+        <h5>Tap And Say "Hello"</h5>
+        <button class="btn">
+            <i  class="fa fa-microphone"></i>
+           
+        </button>
+       <h5>Output</h5>
+        <p class="output"></p>
+</body>
+<script src="/script.js"></script>
+</html>
